@@ -1,0 +1,191 @@
+@charset "UTF-8";
+body {
+  background: #fff; }
+
+header {
+  width: 990px;
+  height: 80px;
+  padding: 0 10px;
+  margin: 0 auto;
+  position: relative; }
+  header .logo {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    display: block;
+    width: 170px;
+    height: 60px;
+    background: url("../img/logo-201305-b.png") no-repeat center; }
+  header h2 {
+    position: absolute;
+    left: 200px;
+    line-height: 40px;
+    margin-top: 25px; }
+  header a {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    font-size: 12px;
+    padding-left: 20px;
+    background: url("../img/q-icon.png") no-repeat 0 3px; }
+
+/*公告*/
+#notice {
+  height: 45px;
+  line-height: 45px;
+  background: #fff8f0;
+  text-align: center;
+  font-size: 12px;
+  color: #999; }
+
+/*大图区*/
+#banner_wrap {
+  height: 475px;
+  width: 100%;
+  background: #9d0000; }
+  #banner_wrap #banner {
+    position: relative;
+    width: 990px;
+    height: 475px;
+    margin: 0 auto;
+    background: url("../img/5a3b86f6N7ab8ccf2.jpg") no-repeat center; }
+  #banner_wrap #login_wrap {
+    position: absolute;
+    width: 346px;
+    background: #FFFFFF;
+    font-size: 12px;
+    top: 10px;
+    right: 10px; }
+    #banner_wrap #login_wrap .login_notice {
+      line-height: 38px;
+      border-bottom: 1px solid #CECECE;
+      text-align: center;
+      background: #fff8f0 url(../img/icon-tips.png) no-repeat 20px center;
+      color: #999; }
+    #banner_wrap #login_wrap .login .login_type {
+      line-height: 54px;
+      font-size: 18px;
+      text-align: center;
+      border-bottom: 1px solid #CECECE; }
+      #banner_wrap #login_wrap .login .login_type a {
+        text-align: center;
+        padding: 0 45px; }
+      #banner_wrap #login_wrap .login .login_type a:nth-of-type(1) {
+        font-weight: bold;
+        color: #e4393c;
+        border-right: 1px solid #CECECE; }
+      #banner_wrap #login_wrap .login .login_type a:hover {
+        color: #e4393c;
+        font-weight: bold; }
+    #banner_wrap #login_wrap .login .login_content1 {
+      display: none; }
+      #banner_wrap #login_wrap .login .login_content1 .login_pic {
+        height: 200px;
+        position: relative; }
+        #banner_wrap #login_wrap .login .login_content1 .login_pic .login_pic1 {
+          position: absolute;
+          left: 85px;
+          top: 30px;
+          text-align: center;
+          display: inline-block;
+          padding: 8px;
+          width: 147px;
+          height: 147px;
+          border: 1px solid #CECECE; }
+          #banner_wrap #login_wrap .login .login_content1 .login_pic .login_pic1 img {
+            width: 147px;
+            height: 147px; }
+        #banner_wrap #login_wrap .login .login_content1 .login_pic .login_pic2 {
+          position: absolute;
+          right: 10px;
+          display: none;
+          top: 30px; }
+      #banner_wrap #login_wrap .login .login_content1 .scan {
+        text-align: center;
+        line-height: 18px;
+        margin: 18px 0 14px; }
+        #banner_wrap #login_wrap .login .login_content1 .scan span {
+          color: #FF0000; }
+      #banner_wrap #login_wrap .login .login_content1 .login_bottom {
+        line-height: 25px;
+        margin: 10px 0 15px;
+        text-align: center; }
+        #banner_wrap #login_wrap .login .login_content1 .login_bottom span {
+          padding: 0 30px; }
+    #banner_wrap #login_wrap .login .login_content2 {
+      padding: 20px; }
+      #banner_wrap #login_wrap .login .login_content2 .user {
+        height: 38px;
+        border: 1px solid #CECECE;
+        margin-bottom: 20px;
+        margin-top: 10px; }
+        #banner_wrap #login_wrap .login .login_content2 .user label {
+          float: left;
+          width: 38px;
+          height: 38px;
+          background: #EEEEEE;
+          color: #666;
+          text-align: center;
+          line-height: 38px;
+          border-right: 1px solid #CECECE;
+          font-size: 20px; }
+        #banner_wrap #login_wrap .login .login_content2 .user input {
+          font-size: 14px;
+          border: 0;
+          line-height: 38px;
+          float: right;
+          width: 258px; }
+      #banner_wrap #login_wrap .login .login_content2 .forget {
+        text-align: right;
+        padding-right: 10px; }
+        #banner_wrap #login_wrap .login .login_content2 .forget a:hover {
+          color: #FF0000; }
+      #banner_wrap #login_wrap .login .login_content2 #btn {
+        margin-top: 20px;
+        width: 100%;
+        color: #fff;
+        letter-spacing: 10px;
+        line-height: 31px;
+        border: 1px solid #e85356;
+        background: #E4393C; }
+    #banner_wrap #login_wrap .bottom {
+      line-height: 50x;
+      border-top: 1px solid #CECECE;
+      background: #fcfcfc;
+      height: 50px; }
+      #banner_wrap #login_wrap .bottom a {
+        float: left;
+        line-height: 50px;
+        padding: 0 30px;
+        background: url("../img/qq.gif") no-repeat 8px center; }
+      #banner_wrap #login_wrap .bottom a:nth-of-type(2) {
+        background: url("../img/weixin.gif") no-repeat 5px center; }
+      #banner_wrap #login_wrap .bottom a:nth-of-type(3) {
+        float: right;
+        background: url(../img/arrow1.gif) no-repeat 5px center; }
+      #banner_wrap #login_wrap .bottom a:hover {
+        color: #FF0000;
+        text-decoration: underline; }
+
+/*链接区*/
+#links {
+  width: 990px;
+  margin: 10px auto;
+  font-size: 12px;
+  line-height: 24px;
+  text-align: center; }
+  #links a {
+    padding: 0 15px;
+    border-right: 1px solid #CECECE; }
+  #links a:hover {
+    color: #FF0000;
+    text-decoration: underline; }
+
+/*footer*/
+footer {
+  height: 44px;
+  font-size: 12px;
+  line-height: 44px;
+  text-align: center; }
+
+/*# sourceMappingURL=login.css.map */

@@ -1,0 +1,129 @@
+@charset "utf-8";
+body{
+    background: #fff;
+}
+#cart_content{
+    width: 1190px;
+    min-height: 200px;
+    margin: 20px auto;
+    overflow: hidden;
+     border-bottom:1px solid #CECECE;
+     .empty1{
+         text-align: center;
+     }
+     .cart1_list{
+         min-height: 200px;
+         overflow: hidden;
+     }
+    .cart_title{
+        height: 32px;
+        line-height: 32px;
+        padding: 5px 0 ;
+        border: 1px solid #CECECE;
+        border-bottom: 0;
+        >div{
+            float: left;
+            font-size: 12px;
+            text-align: center;
+        }
+        .total_products{
+            width: 160px;
+            padding-left: 20px;
+            text-align: left;
+            label{
+                padding-left: 10px;
+            }
+        }
+        .products{
+            width: 350px;
+            text-align: left;
+            
+        }
+        .unit_price{
+            width: 160px;
+        }
+        .num{
+            width: 160px;
+        }
+        .total_price{
+            width: 160px;
+        }
+        .del{
+            width: 160px;
+          
+        }
+        
+    }
+    .cart_list{
+        height: 110px;
+        img{
+           display: inline-block;
+           width: 80px;
+           height: 80px;
+           margin-left: 10px;
+        }
+        > .total_pricenum{
+            margin-top: 40px;
+        }
+        >.del{
+            margin-top: 40px;
+        }
+        >.unit_price{
+            color: #FF0000;
+            font-size: 20px;
+            margin-top: 40px;
+        }
+        >.num{
+            height: 22px;
+            box-sizing: border-box;
+            line-height: 22px;
+            text-align: center;
+            padding-left: 40px;
+            margin-top: 40px;
+            span{
+                float: left;
+                width: 20px;
+                height: 20px;
+                border:1px solid #CECECE;
+                cursor: pointer;
+            }
+            input{
+                float: left;
+                text-align: center;
+                width: 40px;
+                height: 20px;
+                border: 0;
+                border-top: 1px solid #CECECE;
+                border-bottom: 1px solid #CECECE;
+            }
+    }
+    
+    
+}
+
+.total{
+        height: 60px;
+        border: 1px solid #CECECE;
+        border-bottom: 0;
+        padding-right: 30px;
+        >div{
+            float: right;
+            line-height: 30px;
+            margin-top: 15px;
+            padding:0 10px;
+        }
+        .payMoney{
+            color: #fff;
+            background: #FF0000;
+            margin-left: 20px;
+            cursor:pointer;
+        }
+        .totalMoney{
+            border: 1px solid #C81623;
+            height:28px;
+            b{
+                color: #FF0000;
+            }
+        }
+    }
+}
